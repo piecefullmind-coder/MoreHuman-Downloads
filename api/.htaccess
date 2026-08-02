@@ -1,6 +1,6 @@
 Options -Indexes
 
-<FilesMatch "^(bootstrap|config|midtrans)\.php$">
+<FilesMatch "^(bootstrap|config|midtrans|openai|ai-provider)\.php$">
   Require all denied
 </FilesMatch>
 
